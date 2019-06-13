@@ -56,4 +56,4 @@ def location_for(place_or_version, fake_version = nil)
   end
 end
 
-gem 'puppet', *location_for(ENV['PUPPET_GEM_VERSION'])
+gem 'puppet', '~> 5.0'
